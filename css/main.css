@@ -98,15 +98,18 @@ p.success.feedback{
     color: red;
 } */
 
-a[href*="index.html"]{
-    background-color: #3dd13d;
-    color: white;
-    text-decoration: none;
+div{
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
     font-weight: bold;
-    text-transform: uppercase;
-}
-a[href$=".com"]{
-    color: white;
-    background: red;
-    border: 2px solid blue;
-} 
+  }
+  p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+  }
+  p{
+    color: orange;
+  }
+
